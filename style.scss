@@ -1,0 +1,463 @@
+.banner-section{
+    height: 600px;
+   .head{
+
+    padding-bottom: 110px;
+    padding-left: 170px;
+   
+    
+    h1{
+        max-width: 540px;
+        font-size: 80px;
+        span{
+            color:#fff;
+        }
+    }
+   }
+    position: relative;
+    .main-img{
+
+        height: 100%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        z-index: 2;
+        position: relative;
+        
+        img{
+            width: 100%;
+        }
+
+    }
+    .sub-img{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+.standards{
+    padding-bottom: 40px;
+    .text-std{
+        padding-bottom: 35px;
+        text-align: center;
+        p{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    }
+    .image-box{
+        img{
+            width: 100%;
+           
+        }
+
+    }
+    .image-text{
+        background-color: #E9951F;
+        border-radius: 0px 0px 10px 10px;
+        text-align: center;
+        padding-bottom: 10px;
+        h5{
+            color: white;
+            padding-bottom: 15px;
+        }
+        h4{
+            padding-bottom:10px;
+        }
+
+    }
+    .image2-text{
+        background-color:#25966A;
+        border-radius: 0px 0px 10px 10px;
+        text-align: center;
+        padding-bottom: 10px;
+        h5{
+            color: white;
+            padding-bottom: 15px;
+        }
+        h4{
+            padding-bottom:10px;
+        }
+    }
+    .image3-text{
+        background-color:#25966A;
+        border-radius: 0px 0px 10px 10px;
+        text-align: center;
+        padding-bottom: 10px;
+        h5{
+            color: white;
+            padding-bottom: 28px;
+        }
+        h4{
+            padding-bottom:10px;
+        }
+       
+    }
+
+    
+}
+.events{
+   
+    .image-box{
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .image-text{
+        margin: 100px auto;
+        text-align: center;
+        padding-top: 50px;
+       
+        h2{
+            padding-bottom: 20px;
+        }
+        h5{
+            padding-bottom: 10px;
+        }
+        .btn{
+            background-color: #37BBFE;
+           a{
+            color: white;
+            text-decoration: none;
+           }
+        }
+    }
+    .image2-text{
+        margin: 100px auto;
+        text-align: center;
+        // margin-top: 50px;
+        padding-top: 75px;
+        h2{
+            padding-bottom: 20px;
+        }
+        h5{
+            padding-bottom: 10px;
+        }
+        .btn{
+            background-color: #F59D31;
+           a{
+            color: white;
+            text-decoration: none;
+           }
+        }
+    }
+    .image3-text{
+        margin: 100px auto;
+        text-align: center;
+        padding-top: 50px;
+        h2{
+            padding-bottom: 20px;
+        }
+        h5{
+            padding-bottom: 10px;
+        }
+        .btn{
+            background-color: #37BBFE ;
+           a{
+            color: white;
+            text-decoration: none;
+           }
+        }
+    }
+
+}
+.courses{
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+    .heading{
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .course-image-box{
+        img{
+            width: 100%;
+            padding-bottom: 20px;
+            margin-top: 50px;
+            
+        }
+    }
+    .course-image-text{
+        h6{
+            color: red;
+            padding-bottom: 20px
+        }
+    }
+    .btn{
+
+        a{
+            text-decoration: none;
+            background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
+            color: white;
+            border-radius: 5px;
+            margin-left: 80px;
+            padding-bottom: 20px
+            
+        }
+    }
+}
+.success-stories{
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    
+   
+
+   
+    
+    .txt-box1{
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        color: gray;
+         background: #FFFFFF99;
+        ;
+        h4{
+            padding-bottom: 20px;
+            color: gray;
+        }
+    }
+   .story{
+    display: flex;
+    background: linear-gradient(180deg, #0163E0 0%, #25966A 100%);
+    margin-top: 20px;
+ 
+    .image-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        img{
+            height: 120px;
+            width: 120px;
+            margin-top: 70px;
+        }
+        
+    }
+    .story-txt{
+        max-width: 500px;
+        margin: 40px auto;
+    }
+   }
+   .exam-cat{
+    padding-bottom: 40px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    .image-box{
+        position: absolute;
+        right: 10px;
+
+    }
+   
+    
+   }
+   .online-cls{
+    padding-bottom: 40px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    .image2-box{
+        position: absolute;
+        right: 10px;
+        padding-top: 35px;
+
+    }
+
+   }
+   .courses-available{
+    padding-bottom: 40px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    .image3-box{
+        position: absolute;
+        right: 10px;
+        padding-top: 35px;
+        
+
+    }
+
+   }
+   .teachers{
+    padding-bottom: 100px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    .image4-box{
+        position: absolute;
+        right: 10px;
+        padding-top: 35px;
+       
+
+    }
+
+   }
+   .students{
+    padding-bottom: 40px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    .image5-box{
+        position: absolute;
+        right: 10px;
+        padding-top: 35px;
+       
+
+    }
+
+   }
+}
+.information
+{
+    .heading{
+        text-align: center;
+        margin-top:40px ;
+        padding-bottom: 20px;
+        h5{
+            color: gray;
+        }
+    }
+    .image-box{
+        img{
+            width: 100%;
+        }
+    }
+    h4{
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+        color: gray;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            background-color: #E9951F;
+            color: black;
+            
+        }
+    }
+    .add-btn{
+        display: flex;
+        justify-content: center;
+        a{
+            background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
+            text-decoration: none;
+            color: white;
+
+        }
+    }
+    .price-btn{
+        display: flex;
+        justify-content: center;
+        a{
+            background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
+            text-decoration: none;
+            color: white;
+
+        }
+    }
+}
+.footer{
+    margin-top: 60px;
+    background: #12B1C7;
+
+     
+    
+    .image-box{
+        img{
+            width:30px;
+            height: 30px;
+            padding-left: 2px;
+        }
+    }
+    h4{
+        text-align: center;
+    }
+   .popular-goals{
+    margin-left: 100px;
+    hr{
+        color: #fff;
+    }
+    ul{
+        li{
+            list-style: none;
+            a{
+                
+            color: whitesmoke;
+            text-decoration: none;
+            }
+        }
+    }
+   }
+   .exams{
+    margin-left: 100px;
+    hr{
+        color: #fff;
+    }
+    
+        ul{
+            li{
+                list-style: none;
+                a{
+                    
+                color: whitesmoke;
+                text-decoration: none;
+                }
+            }
+        }
+       }
+       .company{
+        margin-left: 100px;
+        hr{
+            color: #fff;
+        }
+        
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        
+                    color: whitesmoke;
+                    text-decoration: none;
+                    font-size: 20px;
+                    
+                    }
+                }
+            }
+        
+       }
+      .playstore-box{
+        img{
+            width: 100%;
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 30px;
+        }
+
+      }
+      .app-store-box{
+        padding-left: 30px;
+
+      }
+
+
+
+
+
+
+    }
+   
+
