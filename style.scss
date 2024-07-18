@@ -1,22 +1,26 @@
-.banner-section{
+.banner-section {
     height: 600px;
     margin-bottom: 50px;
-   .head{
 
-    padding-bottom: 110px;
-    padding-left: 170px;
-   
-    
-    h1{
-        max-width: 540px;
-        font-size: 80px;
-        span{
-            color:#fff;
+    .head {
+
+        padding-bottom: 110px;
+        padding-left: 170px;
+
+
+        h1 {
+            max-width: 540px;
+            font-size: 80px;
+
+            span {
+                color: #fff;
+            }
         }
     }
-   }
+
     position: relative;
-    .main-img{
+
+    .main-img {
 
         height: 100%;
         display: flex;
@@ -24,17 +28,19 @@
         flex-wrap: wrap;
         z-index: 2;
         position: relative;
-        
-        img{
+
+        img {
             width: 100%;
         }
 
     }
-    .sub-img{
+
+    .sub-img {
         position: absolute;
         bottom: 0;
         width: 100%;
-        img{
+
+        img {
             width: 100%;
         }
     }
@@ -42,523 +48,592 @@
 
 
 
-.standards{
+.standards {
     padding-bottom: 40px;
-    .text-std{
+
+    .text-std {
         padding-bottom: 35px;
         text-align: center;
-        p{
+
+        p {
             max-width: 800px;
             margin: 0 auto;
         }
     }
-    .image-box{
-        img{
+
+    .image-box {
+        img {
             width: 100%;
-           
+
         }
 
     }
-    .image-text{
+
+    .image-text {
         background-color: #E9951F;
         border-radius: 0px 0px 10px 10px;
         text-align: center;
         padding-bottom: 10px;
-        h5{
+
+        h5 {
             color: white;
             padding-bottom: 15px;
         }
-        h4{
-            padding-bottom:10px;
+
+        h4 {
+            padding-bottom: 10px;
         }
 
     }
-    .image2-text{
-        background-color:#25966A;
+
+    .image2-text {
+        background-color: #25966A;
         border-radius: 0px 0px 10px 10px;
         text-align: center;
         padding-bottom: 10px;
-        h5{
+
+        h5 {
             color: white;
             padding-bottom: 15px;
         }
-        h4{
-            padding-bottom:10px;
+
+        h4 {
+            padding-bottom: 10px;
         }
     }
-    .image3-text{
-        background-color:#25966A;
+
+    .image3-text {
+        background-color: #25966A;
         border-radius: 0px 0px 10px 10px;
         text-align: center;
         padding-bottom: 10px;
-        h5{
+
+        h5 {
             color: white;
             padding-bottom: 28px;
         }
-        h4{
-            padding-bottom:10px;
+
+        h4 {
+            padding-bottom: 10px;
         }
-       
+
     }
 
-    
+
 }
-.events{
-   
-    .image-box{
+
+.events {
+
+    .image-box {
         width: 100%;
         margin-top: 50px;
-        
+
     }
-    .image-text{
+
+    .image-text {
         margin: 100px auto;
         text-align: center;
         padding-top: 50px;
-       
-        h2{
+
+        h2 {
             padding-bottom: 20px;
         }
-        h5{
+
+        h5 {
             padding-bottom: 10px;
         }
-        .btn{
+
+        .btn {
             background-color: #37BBFE;
-           a{
-            color: white;
-            text-decoration: none;
-           }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
         }
     }
-    .image2-text{
+
+    .image2-text {
         margin: 100px auto;
         text-align: center;
         // margin-top: 50px;
         padding-top: 75px;
-        h2{
+
+        h2 {
             padding-bottom: 20px;
         }
-        h5{
+
+        h5 {
             padding-bottom: 10px;
         }
-        .btn{
+
+        .btn {
             background-color: #F59D31;
-           a{
-            color: white;
-            text-decoration: none;
-           }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
         }
     }
-    .image3-text{
+
+    .image3-text {
         margin: 100px auto;
         text-align: center;
         padding-top: 50px;
-        h2{
+
+        h2 {
             padding-bottom: 20px;
         }
-        h5{
+
+        h5 {
             padding-bottom: 10px;
         }
-        .btn{
-            background-color: #37BBFE ;
-           a{
-            color: white;
-            text-decoration: none;
-           }
+
+        .btn {
+            background-color: #37BBFE;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
         }
     }
 
 }
-.courses{
+
+.courses {
     margin-top: 40px;
     padding-bottom: 70px;
 
-    .heading{
+    .heading {
         text-align: center;
         margin-top: 50px;
         padding-bottom: 10px;
     }
-    
-   
-    .course-image-box{
-        img{
+
+
+    .course-image-box {
+        img {
             width: 100%;
             padding-bottom: 20px;
             margin-top: 50px;
-            
+
         }
     }
-    .course-image-text{
-        h6{
+
+    .course-image-text {
+        h6 {
             color: red;
             padding-bottom: 20px
         }
     }
-    .btn{
-        a{
+
+    .btn {
+        a {
             text-decoration: none;
             background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
             color: white;
             border-radius: 5px;
             padding: 2px 27px 10px 27px;
             border-radius: 40px;
-           margin-left: 80px;
-           
-            
+            margin-left: 80px;
+
+
         }
     }
 }
-.success-stories{
-    background: #FAFAFA;
-   
 
-   
-    
-    .txt-box1{
+.success-stories {
+    background: #FAFAFA;
+
+
+
+
+    .txt-box1 {
         max-width: 300px;
         margin: 0 auto;
         margin-top: 30px;
         color: gray;
-         background: #FFFFFF99;
+        background: #FFFFFF99;
         ;
-        h4{
+
+        h4 {
             padding-bottom: 20px;
             color: gray;
         }
     }
-   .story{
-    display: flex;
-    background: linear-gradient(180deg, #0163E0 0%, #25966A 100%);
-    margin-top: 20px;
- 
-    .image-box{
-        width: 100%;
+
+    .story {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        img{
-            height: 120px;
-            width: 120px;
-            margin-top: 70px;
+        background: linear-gradient(180deg, #0163E0 0%, #25966A 100%);
+        margin-top: 20px;
+
+        .image-box {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+
+            img {
+                height: 120px;
+                width: 120px;
+                margin-top: 70px;
+            }
+
         }
-        
-    }
-    .story-txt{
-        max-width: 500px;
-        margin: 40px auto;
-    }
-   }
-   .exam-cat{
-    padding-bottom: 40px;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    .image-box{
-        position: absolute;
-        right: 10px;
 
-    }
-   
-    
-   }
-   .online-cls{
-    padding-bottom: 40px;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    .image2-box{
-        position: absolute;
-        right: 10px;
-        padding-top: 35px;
-
+        .story-txt {
+            max-width: 500px;
+            margin: 40px auto;
+        }
     }
 
-   }
-   .courses-available{
-    padding-bottom: 40px;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    .image3-box{
-        position: absolute;
-        right: 10px;
-        padding-top: 35px;
-        
-
-    }
-
-   }
-   .teachers{
-    padding-bottom: 100px;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    .image4-box{
-        position: absolute;
-        right: 10px;
-        padding-top: 35px;
-       
-
-    }
-
-   }
-   .students{
-    padding-bottom: 40px;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    .image5-box{
-        position: absolute;
-        right: 10px;
-        padding-top: 35px;
-       
-
-    }
-
-   }
-}
-.information
-{
-    .heading{
+    .exam-cat {
+        padding-bottom: 40px;
+        background-color: white;
         text-align: center;
-        margin-top:40px ;
+        position: relative;
+
+        .image-box {
+            position: absolute;
+            right: 10px;
+
+        }
+
+
+    }
+
+    .online-cls {
+        padding-bottom: 40px;
+        background-color: white;
+        text-align: center;
+        position: relative;
+
+        .image2-box {
+            position: absolute;
+            right: 10px;
+            padding-top: 35px;
+
+        }
+
+    }
+
+    .courses-available {
+        padding-bottom: 40px;
+        background-color: white;
+        text-align: center;
+        position: relative;
+
+        .image3-box {
+            position: absolute;
+            right: 10px;
+            padding-top: 35px;
+
+
+        }
+
+    }
+
+    .teachers {
+        padding-bottom: 100px;
+        background-color: white;
+        text-align: center;
+        position: relative;
+
+        .image4-box {
+            position: absolute;
+            right: 10px;
+            padding-top: 35px;
+
+
+        }
+
+    }
+
+    .students {
+        padding-bottom: 40px;
+        background-color: white;
+        text-align: center;
+        position: relative;
+
+        .image5-box {
+            position: absolute;
+            right: 10px;
+            padding-top: 35px;
+
+
+        }
+
+    }
+}
+
+.information {
+    .heading {
+        text-align: center;
+        margin-top: 40px;
         padding-bottom: 20px;
-        h5{
+
+        h5 {
             color: gray;
         }
     }
-    .image-box{   
-        img{
-            width: 100%;
-            padding-bottom: 20px;
-        }
-    }
-    .course-wrap{
+
+
+    .course-wrap {
         background: #FAFAFA;
         padding-bottom: 50px;
-        .course-info{
+        &:hover{
+            box-shadow: 4px 3px  gray;
+            border-radius: 10px;
+            background-color: white;
+        }
         
-            h4{
-               text-align: center;
-               padding-bottom: 20px;
-              
-           }
-           h6{
-               text-align: center;
-               color: gray;
-               padding-bottom: 23px;
-           }
-           .btn{
-               display: flex;
-               justify-content: center;
-               padding-bottom: 50px;
-               
-              
-               a{
-                   text-decoration: none;
-                   background-color: #E9951F;
-                   color: black;
-                   padding: 5px;
-                   border-radius: 5px;
-                   padding: 0px 18px 0px 18px;
-                   border-radius: 40px;
-                   
-               }
-           }
-             .add-btn{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 30px;
-
-       
-       
-        a{
-            background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
-            text-decoration: none;
-            color: white;
-            padding: 7px 30px 7px 30px;
-            border-radius: 50px;
+        
+    .image-box {
+        position: relative;
+        img {
+            width: 100%;
+            display: inline;
         }
-    }
-    
-    .price-btn-sec{
-        display: flex;
-       gap: 80px;
-       font-size: 20px;
-       margin-left: 30px;
-       .icon-image{
-        display: flex;
-        img{
-            height: 25px;
-            width: 25px;
-        }
-       }
-        span{
-            padding-left: 10px;
-            font-weight: 200px;
-        }
-        a{
-            background-color:  #25966A;
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border-radius: 40px;
-            font-size: 15px;
+        .logo-sec{
+            position: absolute;
+            top: 120px;
+            left: 58px;
+        
+            width: 113px;
+            height: 100px;
             
-
+            
+            img{
+                transition: all 0.5s ease;
+                width: 100%;
+                border-radius: 10px;
+                border: 2px solid #00ACC2;
+                visibility: hidden;
+                opacity: 0;
+                
+                
+            }
         }
     }
-          }
+       
+
+        .course-info {
+
+
+            h4 {
+                text-align: center;
+                padding-top: 70px;
+                padding-bottom: 20px;
+
+            }
+
+            h6 {
+                text-align: center;
+                color: gray;
+                padding-bottom: 23px;
+            }
+        }
+        .featured-btn {
+            display: flex;
+            justify-content: center;
+            // padding-bottom: 50px;
+            padding-bottom: 20px;
+
+           
+
+
+            a {
+                text-decoration: none;
+                background-color: #E9951F;
+                color: black;
+                padding: 5px;
+                border-radius: 5px;
+                padding: 0px 18px 0px 18px;
+                border-radius: 40px;
+
+            }
+        }
+        h4{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+          
+
+            .add-btn {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 30px;
+
+
+
+                a {
+                    background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
+                    text-decoration: none;
+                    color: white;
+                    padding: 7px 30px 7px 30px;
+                    border-radius: 50px;
+                }
+            }
+
+            .price-btn-sec {
+                display: flex;
+                gap: 80px;
+                font-size: 20px;
+                margin-left: 30px;
+
+                .icon-image {
+                    display: flex;
+
+                    img {
+                        height: 25px;
+                        width: 25px;
+                    }
+                }
+
+                span {
+                    padding-left: 10px;
+                    font-weight: 200px;
+                }
+
+                a {
+                    background-color: #25966A;
+                    text-decoration: none;
+                    color: white;
+                    padding: 5px 15px 5px 15px;
+                    border-radius: 40px;
+                    font-size: 15px;
+
+
+                }
+            }
+
+            &:hover .logo-sec img{
+                visibility: visible;
+                opacity: 1;
+            }
     }
-
-}
-
-    
-    
-    
-
    
     
-    .add-btn{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 30px;
-
-       
-       
-        a{
-            background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
-            text-decoration: none;
-            color: white;
-            padding: 7px 30px 7px 30px;
-            border-radius: 50px;
-        }
-    }
+}
+        
     
-    .price-btn-sec{
-        display: flex;
-       gap: 80px;
-       font-size: 20px;
-       margin-left: 30px;
-       .icon-image{
-        display: flex;
-        img{
-            height: 25px;
-            width: 25px;
-        }
-       }
-        span{
-            padding-left: 10px;
-            font-weight: 200px;
-        }
-        a{
-            background-color:  #25966A;
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border-radius: 40px;
-            font-size: 15px;
-            
 
-        }
-    }
 
-.footer{
+        
+
+    
+
+.footer {
     margin-top: 60px;
     background: #12B1C7;
     padding-top: 50px;
 
-     
-    
-    .image-box{
+
+
+    .image-box {
         padding-bottom: 50px;
-        img{
-            width:50px;
+
+        img {
+            width: 50px;
             height: 30px;
             padding-left: 10px;
             padding-bottom: 5px;
-            
+
         }
     }
-    h4{
+
+    h4 {
         text-align: center;
         padding-bottom: 15px;
     }
-   .popular-goals{
-    margin-left: 100px;
-    hr{
-        color: #fff;
-    }
-    ul{
-        li{
-            list-style: none;
-            
-            a{
-                
-            color: whitesmoke;
-            text-decoration: none;
-           
-           
-            }
+
+    .popular-goals {
+        margin-left: 100px;
+
+        hr {
+            color: #fff;
         }
-    }
-   }
-   .exams{
-    margin-left: 100px;
-    hr{
-        color: #fff;
-    }
-    
-        ul{
-            li{
+
+        ul {
+            li {
                 list-style: none;
-                a{
-                    
-                color: whitesmoke;
-                text-decoration: none;
+
+                a {
+
+                    color: whitesmoke;
+                    text-decoration: none;
+
+
                 }
             }
         }
-       }
-       .company{
+    }
+
+    .exams {
         margin-left: 100px;
-        hr{
+
+        hr {
             color: #fff;
         }
-        
-            ul{
-                li{
-                    list-style: none;
-                    a{
-                        
+
+        ul {
+            li {
+                list-style: none;
+
+                a {
+
+                    color: whitesmoke;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .company {
+        margin-left: 100px;
+
+        hr {
+            color: #fff;
+        }
+
+        ul {
+            li {
+                list-style: none;
+
+                a {
+
                     color: whitesmoke;
                     text-decoration: none;
                     font-size: 20px;
-                    
-                    }
+
                 }
             }
-        
-       }
-      .playstore-box{
-        img{
+        }
+
+    }
+
+    .playstore-box {
+        img {
             width: 100%;
             padding-top: 80px;
             padding-bottom: 40px;
             padding-left: 30px;
         }
 
-      }
-      .app-store-box{
+    }
+
+    .app-store-box {
         padding-left: 30px;
 
-      }
-
-
-
-
-
-
     }
-   
 
+
+
+
+
+
+}
