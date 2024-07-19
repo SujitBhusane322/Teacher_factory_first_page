@@ -207,10 +207,48 @@
     padding-bottom: 70px;
 
     .heading {
+       h2{
         text-align: center;
         margin-top: 50px;
         padding-bottom: 10px;
+        font-family: "Jost";
+        font-size: 40px;
+        
+       }
+       h2 span{
+        position: relative;
+
+       }
+       
+      
+       
+       h2 span:nth-child(1)::after
+       {
+       
+        content:"";
+        position: absolute;
+        background-color: #FB8A2E99;
+        height: 32px;
+        width: 30px;
+        bottom: 8px;
+        left: -4px;
+        border-radius: 100%;
+        z-index:-1;
     }
+    h2 span:nth-child(2)::after
+    {
+    
+     content:"";
+     position: absolute;
+     background-color: #07f51799;
+     height: 32px;
+     width: 30px;
+     bottom: 8px;
+     left: -4px;
+     border-radius: 100%;
+     z-index:-1;
+ }
+}
 
 
     .course-image-box {
@@ -243,6 +281,8 @@
         }
     }
 }
+
+
 
 .success-stories {
     background: #FAFAFA;
@@ -368,6 +408,7 @@
 
     }
 }
+
 
 .information {
     .heading {
