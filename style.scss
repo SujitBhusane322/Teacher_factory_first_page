@@ -127,6 +127,9 @@
     .image-box {
         width: 100%;
         margin-top: 50px;
+        img{
+            width: 100%;
+        }
 
     }
 
@@ -261,6 +264,9 @@
     }
 
     .course-image-text {
+        h4{
+            min-height: 60px;
+        }
         h6 {
             color: red;
             padding-bottom: 20px
@@ -268,6 +274,7 @@
     }
 
     .btn {
+        width: 100%;
         a {
             text-decoration: none;
             background: linear-gradient(270deg, #0163E0 30.17%, #25966A 87.55%);
@@ -275,7 +282,7 @@
             border-radius: 5px;
             padding: 2px 27px 10px 27px;
             border-radius: 40px;
-            margin-left: 80px;
+            // margin-left: 80px;
 
 
         }
@@ -377,7 +384,7 @@
     }
 
     .teachers {
-        padding-bottom: 100px;
+        padding-bottom: 55px;
         background-color: white;
         text-align: center;
         position: relative;
@@ -522,7 +529,7 @@
 
             .price-btn-sec {
                 display: flex;
-                gap: 80px;
+                justify-content: space-between;
                 font-size: 20px;
                 margin-left: 30px;
 
@@ -572,11 +579,20 @@
     margin-top: 60px;
     background: #12B1C7;
     padding-top: 50px;
+    h4{
+
+        text-align: center;
+        @media(max-width:800px){
+            font-size: 16px;
+        }
+    }
 
 
 
     .image-box {
         padding-bottom: 50px;
+        text-align: center;
+        
 
         img {
             width: 50px;
@@ -586,14 +602,21 @@
 
         }
     }
-
-    h4 {
-        text-align: center;
-        padding-bottom: 15px;
+    .queries{
+        h4 {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        h6{
+            text-align: center;
+        }
+        
     }
 
+    
+
     .popular-goals {
-        margin-left: 100px;
+        // margin-left: 60px;
 
         hr {
             color: #fff;
@@ -602,6 +625,7 @@
         ul {
             li {
                 list-style: none;
+                text-align: center;
 
                 a {
 
@@ -615,7 +639,7 @@
     }
 
     .exams {
-        margin-left: 100px;
+        // margin-left: 60px;
 
         hr {
             color: #fff;
@@ -624,6 +648,7 @@
         ul {
             li {
                 list-style: none;
+                text-align: center;
 
                 a {
 
@@ -635,7 +660,7 @@
     }
 
     .company {
-        margin-left: 100px;
+        // margin-left: 60px;
 
         hr {
             color: #fff;
@@ -644,6 +669,7 @@
         ul {
             li {
                 list-style: none;
+                text-align: center;
 
                 a {
 
@@ -658,17 +684,30 @@
     }
 
     .playstore-box {
+        text-align: center;
         img {
             width: 100%;
             padding-top: 80px;
             padding-bottom: 40px;
-            padding-left: 30px;
+            // padding-left: 30px;
+            @media (max-width:767px) {
+                max-width: 200px;
+                
+            }
         }
 
     }
 
     .app-store-box {
-        padding-left: 30px;
+        text-align: center;
+       img{
+        width: 100%;
+        @media (max-width:767px) {
+            max-width: 200px;
+          
+            
+        }
+       }
 
     }
 
